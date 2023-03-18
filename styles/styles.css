@@ -1,0 +1,174 @@
+
+.body{
+    margin: 0;
+    font-family: sans-serif; 
+}
+
+
+@media (min-width:481px){
+.nav{
+    height: 60px;
+    background-color:rgb(12, 12, 12);
+    padding: 20PX;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    overflow:-moz-hidden-unscrollable;
+    flex-wrap: nowrap;
+}
+}
+
+.nav *{
+    color: rgb(240, 238, 248);
+    line-height: 20px;
+}
+
+.logo{
+    float:right;
+    display: inline;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav a {
+    width: 100px;
+    display:inline;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align:center;
+    flex-wrap: nowrap;
+}
+.nav a:hover {
+	background: #1ca9e0;
+	font-size: 18px;
+    border-radius: 10%;
+}
+
+
+.footer{
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.portada{
+    height: 85vh;
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    background-image:url("../images/copa.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.card {
+    font-family: sans-serif, Helvetica;
+    margin-top: 50px;
+	background: white;
+	max-width:25%;
+	padding: 20px;
+	margin: 0%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    align-content: center;
+    border-radius: 10%;
+}
+
+.titulo{
+    font-family: sans-serif, helvetica;
+    text-align: left;
+    justify-content: flex;
+    padding: 20px;
+    margin-left: 30px;
+}
+.p1{
+    font-family: sans-serif, helvetica;
+    text-align: left;
+    padding: 10px;
+    margin-left: 0px; 
+    margin-top: 10px;
+    max-width: 800px;
+}
+.cuerpo {
+    height: calc(100vh - 60px);
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.argentina{
+    float:right;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1000px;
+    height: 500px;
+    size-adjust:30%;
+}
+.vMessi{
+    justify-items: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 1000px;
+    height: 600px;
+}
+.textMessi{
+    display: flex;
+    float: right;
+    justify-items: center;
+    margin-top: 0px;
+    margin-left: 15x;
+    margin-right: 20px;
+    width: 700px;
+    height: 600px;
+    size-adjust: auto;
+
+}
+.scaloni{
+    display: inline;
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 900px;
+    height: 600px;
+    size-adjust: auto;
+    margin-bottom: 5px;
+    overflow:-moz-hidden-unscrollable;
+}
+#textScaloni{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 900px;
+    height: 30px;
+    size-adjust: auto;
+    margin-bottom: 0;
+    overflow:-moz-hidden-unscrollable;
+}
+.scaloniDos{
+    display: flex;
+    justify-items: center;
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 900px;
+    height: 30px;    
+}
+.contactanos{
+    background-image:url("../images/tribuna.jpg");
+    height: 91vh;
+    margin-top: 0px;
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.contactanos .card{
+        background-color: rgb(27, 173, 218);
+        color: floralwhite;
+        flex-direction:column;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+}
