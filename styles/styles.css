@@ -3,59 +3,16 @@
     font-family: sans-serif;
 }
 
-
-/* @media (min-width:481px) {
-    .nav {
-        height: 60px;
-        background-color: rgb(12, 12, 12);
-        padding: 20PX;
-        box-sizing: border-box;
-        justify-content: space-between;
-        align-items: center;
-        overflow: -moz-hidden-unscrollable;
-        flex-wrap: nowrap;
-    }
-} */
-
-/* .nav * {
-    color: rgb(240, 238, 248);
-    line-height: 20px;
-}
-
-.logo {
-    float: right;
-    display: inline;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-items: center;
-} */
-
-/* .nav a {
-    width: 100px;
-    display: inline;
-    padding: 20px 15px;
-    text-decoration: none;
-    font-family: sans-serif;
-    text-align: center;
-    flex-wrap: nowrap;
-}
-
 .nav a:hover {
     background: #1ca9e0;
     font-size: 18px;
     border-radius: 10%;
-} */
+}
 
-.navbar a:hover {
+*/ .navbar a:hover {
     font-size: 18px;
     font-weight: bold;
 }
-
-
-
-
-
 
 .titulo {
     font-family: sans-serif, helvetica;
@@ -89,57 +46,6 @@
     height: 500px;
     size-adjust: 30%;
 }
-
-/* .vMessi {
-    justify-items: center;
-    margin-top: 100px;
-    margin-left: 30px;
-    width: 1000px;
-    height: 600px; */
-
-
-
-/* .scaloni {
-    display: inline;
-    justify-items: center;
-    margin-top: 60px;
-    margin-left: 30px;
-    width: 900px;
-    height: 600px;
-    size-adjust: auto;
-    margin-bottom: 5px;
-    overflow: -moz-hidden-unscrollable;
-} */
-
-/* #textScaloni {
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 900px;
-    height: 30px;
-    size-adjust: auto;
-    margin-bottom: 0;
-    overflow: -moz-hidden-unscrollable;
-}
-
-.scaloniDos {
-    display: flex;
-    justify-items: center;
-    margin-top: 0px;
-    margin-left: 30px;
-    width: 900px;
-    height: 30px;
-} */
-
-
-/* .contactanos {
-    background-image: url("../images/tribuna.jpg");
-    height: 91vh;
-    margin-top: 0px;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
 
 .contactanos .card {
     background-color: rgb(27, 173, 218);
