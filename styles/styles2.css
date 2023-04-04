@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100&family=Roboto:wght@100&display=swap");
+.contactanos {
+  list-style: none; }
+  .contactanos__card {
+    background-color: #1badda;
+    color: floralwhite;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.navbar {
+  list-style: none; }
+  .navbar__a:hover {
+    font-size: 18px;
+    font-weight: bold; }

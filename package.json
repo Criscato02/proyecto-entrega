@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss scss/styles.scss styles/styles2.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Criscato02/proyecto-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Criscato02/proyecto-entrega/issues"
+  },
+  "homepage": "https://github.com/Criscato02/proyecto-entrega#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,25 @@
+//Globales
+@import "./globales/variables.scss";
+@import "./globales/tipografias";
+
+.contactanos {
+    list-style: none;
+
+    &__card {
+        background-color: rgb(27, 173, 218);
+        color: floralwhite;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.navbar {
+    list-style: none;
+
+    &__a:hover {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
