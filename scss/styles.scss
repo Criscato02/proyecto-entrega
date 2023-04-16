@@ -23,3 +23,12 @@
         font-weight: bold;
     }
 }
+
+@mixin important-text {
+    color: rgb(218, 27, 132);
+    font-weight: bold;
+}
+
+.titles {
+    @include important-text;
+}

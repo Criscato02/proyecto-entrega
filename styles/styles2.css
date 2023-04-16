@@ -22,11 +22,10 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 980px) {
-  display: none;
+.container {
+  max-width: 120px;
 }
 
-.container {
-  text-align: center;
-
+.footer {
+  background-color: #1badda;
 }
