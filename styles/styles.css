@@ -51,18 +51,12 @@ UTILIZADO EN SASS
     flex-direction: column;
     align-items: center;
 } */
-
-.container {
-    max-width: 1200px;
-}
-
 .footer {
     max-height: 50px;
     background-color: #09546b;
     padding: 80px;
     margin-top: 5vh;
     text-align: center;
-
 }
 
 .social-links {
@@ -73,4 +67,53 @@ UTILIZADO EN SASS
 
 .body {
     min-height: 100hvh;
+}
+
+.referencias{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(15, 63, 63);
+    width:auto
+  }
+  .referencias-links{
+    width: 30%;
+    color: #FFFFFF;
+  }
+  .referencias .titulo h2{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #00c3ff;
+    display: inline-block;
+  }
+  .referencias-links ul li a{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+.referencias-links ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+.social-links a {
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: 3px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+.social-links a:hover {
+    background-color: #00c3ff;
+}
+@media(max-width:991px){
+    .referencias{
+        text-align: center;
+    }
+    .referencias-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }

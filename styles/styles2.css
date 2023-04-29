@@ -21,11 +21,11 @@
   font-size: 18px;
   font-weight: bold;
 }
-
-.container {
-  max-width: 120px;
+/* .referencias{
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.footer {
-  background-color: #1badda;
-}
+.referencias-links{
+  width: 25%;
+  padding: 0 15px;
+} */

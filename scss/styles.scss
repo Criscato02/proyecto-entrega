@@ -25,10 +25,18 @@
 }
 
 @mixin important-text {
-    color: rgb(218, 27, 132);
+    color: rgb(255, 0, 0);
     font-weight: bold;
 }
 
 .titles {
     @include important-text;
 }
+// .referencias{
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+//   .referencias-links{
+//     width: 25%;
+//     padding: 0 15px;
+//   }
