@@ -6,28 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contáctanos!</title>
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/styles2.css" />
     <link
       rel="stylesheet"
-      link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <style class="background">
-      body {
-        background-image: url('../images/messiCopa.jpg');
-        background-repeat: no-repeat;
-        background-size:cover;
-}
-    </style>
+    <style class="background"></style>
     <!-- navegacion -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand ml-3" href="../index.html">La Copa del Mundo de la FIFA</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand ml-3" href="../index.html"
+        >La Copa del Mundo de la FIFA</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../pages/seleccion.html">La Selección Argentina</a>
+            <a class="nav-link" href="../pages/seleccion.html"
+              >La Selección Argentina</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../pages/messi.html">Messi</a>
@@ -38,37 +50,63 @@
           <li class="nav-item">
             <a class="nav-link" href="../pages/contacto.html">Contacto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/referencias.html">Referencias</a>
-          </li>
         </ul>
         <span class="navbar-text form-inline">
           <a href="../index.html">
             <img src="../images/logoDos.jpg" alt="Logo" />
           </a>
-        </span> 
+        </span>
       </div>
     </nav>
     <!-- formulario de contacto -->
-    <div class=container>
-      <div class="p-5 col-lg-4 col-xs-12 text-md-center">
-        <div class="card">
+    <div class="formulario">
+      <div class="form-box">
+        <div class="form-value">
           <form action="">
-            <label for="name">Correo Electrónico</label>
-            <br />
-            <input name="name" type="text" />
-            <br />
-            <label for="name">Déjanos tus comentarios</label>
-            <br />
-            <textarea name="name" type="text"></textarea>
-            <br />
-            <input type="submit"value="Enviar Consulta"
+            <h2>Contáctanos</h2>
+            <div class="imputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input name="name" type="text" />
+              <label for="">Correo Electrónico</label>
+            </div>
+            <div class="imputbox">
+              <ion-icon name="help-circle-outline"></ion-icon>
+              <textarea name="area" type="text"></textarea>
+              <label for="text">Déjanos tus comentarios</label>
+            </div>
+            <div class="notificaciones">
+              <label for=""
+                ><input type="checkbox" />Activar Notificaciones</label
+              >
+            </div>
+            <button>Enviar Consulta</button>
           </form>
         </div>
       </div>
-    </div>  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
